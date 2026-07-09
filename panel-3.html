@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="page">
+  <div class="shell">
+    <section class="panel panel--b">
+      <div class="tape" aria-hidden="true"></div>
+      <h2>Even at one percent, I'm in</h2>
+      <p>I know the odds might not be in my favor right now, and I'm not asking you to pretend otherwise. But if there's even a single of a chance — one percent, a coin flip's shadow — I'd rather spend it trying than walk away wondering what if. Some things are worth chasing even when the math says don't.</p>
+      <div class="gauge-row">
+        <svg width="120" height="120" viewBox="0 0 120 120" role="img" aria-label="A gauge showing one percent, nearly empty">
+          <circle cx="60" cy="60" r="50" fill="none" stroke="var(--line)" stroke-width="14"/>
+          <circle id="gauge-arc" cx="60" cy="60" r="50" fill="none" stroke="var(--pink)" stroke-width="14"
+                  stroke-linecap="round" transform="rotate(-90 60 60)"
+                  stroke-dasharray="314.16" stroke-dashoffset="311.02"/>
+          <text x="60" y="67" text-anchor="middle" font-family="Arial Black, sans-serif" font-weight="900" font-size="26" fill="var(--ink)">1%</text>
+        </svg>
+      </div>
+    </section>
+
+    <nav class="page-nav">
+      <a class="btn-back" href="panel-2.html">← Back</a>
+      <span class="progress-dots" aria-hidden="true">
+        <span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot is-current"></span><span class="dot"></span><span class="dot"></span>
+      </span>
+      <a class="btn-next" href="panel-4.html">Next →</a>
+    </nav>
+  </div>
+</div>
+<script src="script.js" defer></script>
+</body>
+</html>
